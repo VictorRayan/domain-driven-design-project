@@ -12,3 +12,4 @@ To sign commits with Assimetric Encryption: https://docs.github.com/en/authentic
 	git config --global user.signingkey keyid_here
 	signing: git commit -S -m "comment" #do it by adding the -S option
 	adding to GitHub, get your public key: gpg --armor --export keyid_here 
+	*PS: Signing a commit with `sudo` may not work 
